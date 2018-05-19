@@ -1,0 +1,16 @@
+.footer {
+    margin: auto;
+    text-align: center;
+}
+
+    .footer p {
+        margin: auto;
+        padding: 10px 0px;
+        color: #999;
+    }
+
+.footcontain {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,11 @@
+.buttonSize {    
+    max-width: 30px;
+    margin: 6.5px;
+}
+
+
+@media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+    .buttonSize {
+        max-width: 20px;
+    }
+}

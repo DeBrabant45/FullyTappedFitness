@@ -1,0 +1,114 @@
+.navpage {
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    bottom: -33px;
+    position: relative;
+    width: 100%;
+    display: table !important;
+    position: relative;
+    z-index: 90000;
+}
+
+    .navpage ul {
+        width: 100%;
+        display: table-row;
+    }
+
+    .navpage li {
+        vertical-align: -webkit-baseline-middle;
+        position: relative;
+        z-index: 20;
+        display: table-cell;
+        text-align: center;
+        border-right: 1px solid #000000;
+    }
+        .navpage li:first-child, li:last-child {
+            border-right: none;
+        }
+
+    .navpage ul > li:nth-child(2) > a {
+        border-radius: 5px 0 0 5px;
+    }
+
+    .navpage ul > li:nth-last-child(1) > a {
+        border-radius: 0 5px 5px 0;
+    }
+
+    .navpage a {
+        background-color: #4a4a4a;
+        font-variant-caps: small-caps;
+        font-size: 18px;
+        color: #ffffff;
+        display: block;
+        padding: 1.40em 1em 1.40em;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+        .navpage a:hover {
+            color: #ffffff;
+            background-color: #ff6a00;
+        }
+
+.navpagelogo img {
+    width: 50px;
+    height: 50px;
+}
+
+.mobile-nav, .closebtn a {
+    display: none;
+}
+
+@media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+
+    .closebtn, .mobile-nav {
+        display: block;
+    }
+
+    .navpage {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111111fc;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+        .navpage ul {
+            padding: 5px;
+        }
+
+        .navpage li {
+            display: block;
+        }
+
+        .navpage a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+
+            .navpage a:hover {
+                color: #f1f1f1;
+            }
+
+        .navpage .closebtn {
+            position: relative;
+            top: 0;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        .nav-logo img {
+            max-width: 120px;
+        }
+
+}
