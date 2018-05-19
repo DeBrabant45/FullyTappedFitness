@@ -15,7 +15,7 @@ const gymHours = () => {
     else {
         hours = '5:15AM - 8:30PM';
     }
-    return today + ' ' + hours; 
+    return today + ' ' + hours;
 };
 
 const openNav = () => {
