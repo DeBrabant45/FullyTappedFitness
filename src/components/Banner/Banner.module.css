@@ -1,12 +1,10 @@
 .bannercontainer {
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-    background-image: url(http://ironfit.ancorathemes.com/wp-content/uploads/2015/12/bg1.jpg);
     /*background: url(../images/Sample12.jpg);*/
-    /*background-position: center center;*/
     background-size: cover;
     width: 100%;
-    min-height: 400px;
+    min-height: 450px;
     opacity: 1;
     visibility: inherit;
     z-index: 20;
@@ -27,73 +25,25 @@
     padding-top: 90px;
 }
 
-.bannertext h1 {
-    font-size: 100px;
-    margin: 0px;
-}
-
-.beforeH, .afterH {
-    font-size: 25px;
-    color: #d3d3d3;
-    margin: 0px;
-}
-
-.bannertext {
-    display:inline-block;
-    overflow:hidden;
-    white-space:nowrap;
-  }
-
-.beforeH:first-of-type {     
-    animation: slideinR 10s;
-}  
-
-.head:first-of-type {
-    animation: showup 10s;
-}
-
-.afterH:last-of-type  {
-    animation: slideinL 10s;
-}
-
-@keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:.5;}
-    80% {opacity:.8;}
-    100% {opacity:1;}
-}
-
-@keyframes slideinR {
-    0% { margin-right:-900px; }
-    20% { margin-right:-900px; }
-    35% { margin-right:0px; }
-    100% { margin-right:0px; }
-}
-
-@keyframes slideinL {
-    0% { margin-left:-900px; }
-    20% { margin-left:-900px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-}
-
 
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
     
+    .bannercontainer {
+        min-height: 350px;
+        background-size: cover;
+        background-position: bottom;
+    }
+
     .bannercontent, .bannercontentinfo {
         max-width: 100%;
     }
 
     .bannercontentinfo {
-        margin-top: 20px;
+        margin-top: 35px;
     }
 
         .bannercontentinfo h1 {
             font-size: 56px;
-        }
-
-        .beforeH,.afterH {
-            font-size: 16px;
         }
 
 }
