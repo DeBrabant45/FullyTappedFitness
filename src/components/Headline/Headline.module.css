@@ -1,0 +1,27 @@
+.HLText {
+    margin-top: 20px;
+    padding: 20px;
+    min-height: 250px;
+    text-align: center;
+}
+
+    .HLText h1 {
+        font-size: 55px;
+        margin: 0px;
+        display: inline-block;
+    }
+
+    .HLText p {
+        font-size: 20px;
+        margin-top: 1.45rem;
+    }
+
+    .HLText span {
+        color: #ff6a00;
+    }
+
+    @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+        .HLText h1 {
+            font-size: 40px;
+        }
+    }

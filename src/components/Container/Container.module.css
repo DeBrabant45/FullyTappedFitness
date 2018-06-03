@@ -1,0 +1,59 @@
+.containercolor {
+    background-color: rgba(0, 0, 0, .30);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 30px;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 75%;
+}
+.contentinfo {
+    margin: 0 auto;
+    z-index: 1;
+    max-width: 90%;
+    padding: 30px;
+    text-align: center;
+}
+
+    .contentinfo h2 {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+
+    .contentinfo h1 {
+        font-size: 55px;
+        margin: 0px;
+        display: inline-block;
+    }
+
+.colorchange {
+    color: #ff6a00;
+}
+
+@media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {    div, p 
+
+    .contentinfo {
+        padding: 0px;
+    }
+
+    .container{
+        padding: 0px;
+    }
+
+    .contentinfo h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1255px), (min-device-width: 515px) and (max-device-width: 768px) {
+
+    .content {
+        max-width: 100%;
+    }
+
+}

@@ -1,0 +1,64 @@
+/*Adding background image with transparent shade to content*/
+.secc {
+    background: linear-gradient( rgba(0, 0, 0, .90), rgba(0, 0, 0, .90) ),url(../../images/Sample14.png);
+    background-size: cover;
+}
+
+.sectionc {
+    color: #ff6a00;
+}
+
+.contentservices {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+/*Choose Program icons and text*/
+.small {
+    max-width: 270px;
+    text-align: center;
+    display: inline-block;
+    padding: 1em 0 4em 0;
+    width: 50%;
+    border-right: 1px solid rgba(69,71,72,0.7);
+}
+
+    .small:last-child {
+        border-right: none;
+    }
+
+    .small img {
+        height: 128px;
+        width: 128px;
+        max-width: 270px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    .small p {
+        font-size: 15px;
+    }
+
+    .colorchange {
+        color: #ff6a00;
+    }
+
+    @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+
+        .secc {
+            background-position: center; 
+        }
+
+        .contentservices {
+            display: block;
+        }
+
+        .small {
+            width: auto;
+            border-right:none;
+        }
+    }
