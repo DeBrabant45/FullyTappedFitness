@@ -13,7 +13,6 @@
 
     .HLText p {
         font-size: 20px;
-        margin-top: 1.45rem;
     }
 
     .HLText span {
@@ -22,6 +21,10 @@
 
     @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
         .HLText h1 {
-            font-size: 40px;
+            font-size: 35px;
+        }
+
+        .HLText p {
+            font-size: 16px;
         }
     }

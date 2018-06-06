@@ -7,7 +7,7 @@ import Headline from "../components/Headline/Headline";
 
 export default () => (
   <div>
-    <Headline head="We are the #1 Performance Gym" detail1="No matter where you’re at in your fitness journey" detail2="we are here help you take it to the next level">
+    <Headline head="We are the #1 Performance Gym" detail1="No matter where you’re at in your fitness journey " detail2="we are here help you take it to the next level">
       <Button to="/about/">GET DETAILS</Button>
     </Headline>
     <Programs/>

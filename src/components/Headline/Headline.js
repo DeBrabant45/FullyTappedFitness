@@ -12,7 +12,6 @@ const Headline = (props) => {
             </h1>
             <p>
                 {props.detail1}
-                <br/>
                 {props.detail2}
             </p>
             {props.children}
