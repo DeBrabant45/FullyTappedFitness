@@ -1,0 +1,47 @@
+.containercolor {
+    background-color: rgba(0, 0, 0, .30);
+}
+
+.coachservices {
+    display: block;
+}
+
+.medium {
+    width: 300px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+    
+}
+
+    .medium img {
+        max-width: 300px;
+        max-height: 400px;
+        border-radius: 5px;
+    }
+
+    .medium h4 {
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    .textcontain {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .coachsm {
+        padding: 10px;
+    }
+    
+    .coachsm img {
+        max-width: 35px;
+    }
+
+    .coachlink a {
+        color: #ff6a00; 
+    }

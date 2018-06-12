@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Programs from "../components/Programs/Programs";
-import Container from "../components/Container/Container.js";
+import Headline from "../components/Headline/Headline.js";
 import Button from "../components//Button/Button.js";
-import Headline from "../components/Headline/Headline";
+import Programs from "../components/Programs/Programs.js";
+import Video from "../components/Video/Video.js";
+import Coaches from "../components/Coaches/Coaches.js";
+
 
 export default () => (
   <div>
@@ -11,5 +12,7 @@ export default () => (
       <Button to="/about/">GET DETAILS</Button>
     </Headline>
     <Programs/>
+    <Video url={require("../video/FTF_commercial.mp4")}/>
+    <Coaches/>
   </div>
 );

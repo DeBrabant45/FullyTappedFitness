@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../Container/Container.js";
 import styles from "./Headline.module.css";
-import Button from "../Button/Button.js";
 
 const Headline = (props) => {
     return (

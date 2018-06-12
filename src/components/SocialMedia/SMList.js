@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import Facebook from "./SMButtons/FBButton.js";
 import Instagram from "./SMButtons/IGButton.js";
 import Twitter from "./SMButtons/TWButton.js";
