@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Container/Container.js";
+import Button from "../Button/Button.js";
 import styles from "./Headline.module.css";
 
 const Headline = (props) => {
@@ -14,6 +15,7 @@ const Headline = (props) => {
                 {props.detail2}
             </p>
             {props.children}
+            <Button to="/about/">GET DETAILS</Button>
           </div>
         </Container>
     );

@@ -1,0 +1,15 @@
+[   
+    {
+        "image":"../../../images/Preformance.svg",
+        "name": "Performance"
+
+    },
+    {
+        "image":"../../../images/PersonalTraining.svg",
+        "name": "Personal Training"
+    },
+    {
+        "image":"../../../images/BootCamp.svg",
+        "name": "Boot Camp"
+    }
+]

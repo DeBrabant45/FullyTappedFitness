@@ -1,13 +1,3 @@
-/*Adding background image with transparent shade to content*/
-.secc {
-    background: linear-gradient( rgba(0, 0, 0, .80), rgba(0, 0, 0, .90) ),url(../../images/Sample14.png);
-    background-size: cover;
-}
-
-.sectionc {
-    color: #ff6a00;
-}
-
 .contentservices {
     display: flex;
     flex-direction: row;
@@ -43,15 +33,8 @@
         font-size: 15px;
     }
 
-    .colorchange {
-        color: #ff6a00;
-    }
 
     @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
-
-        .secc {
-            background-position: center; 
-        }
 
         .contentservices {
             display: block;
