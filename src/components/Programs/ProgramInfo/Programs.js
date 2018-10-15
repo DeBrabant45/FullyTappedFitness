@@ -6,7 +6,7 @@ const Programs = (props) => {
     return(
         <div className={styles.contentservices}>
             <div className={styles.small}>
-                <img src={require(props.image)}/>
+                <img src={props.images}/>
                 <h3>{props.name}</h3>
                 <Button to="/classes/">DETAILS</Button>
             </div>

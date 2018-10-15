@@ -1,5 +1,5 @@
 .contentservices {
-    display: flex;
+    display: inline;
     flex-direction: row;
     padding-top: 40px;
     padding-bottom: 40px;

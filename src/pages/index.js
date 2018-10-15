@@ -3,6 +3,8 @@ import Headline from "../components/Headline/Headline.js";
 import ProgramWrap from "../components/Programs/ProgramWrap.js";
 import Video from "../components/Video/Video.js";
 import CoachWrap from "../components/Coaches/CoachWrap.js";
+import ReviewsWrap from "../components/Reviews/ReviewsWrap.js";
+import Maps from "../components/Maps/Maps.js";
 
 
 export default () => (
@@ -11,5 +13,7 @@ export default () => (
     <ProgramWrap />
     <Video url={require("../video/FTF_commercial.mp4")} />
     <CoachWrap />
+    <ReviewsWrap />
+    <Maps />
   </div>
 );
