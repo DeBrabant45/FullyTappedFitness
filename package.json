@@ -12,6 +12,7 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-typography": "^1.7.18",
     "google-map-react": "^1.0.9",
+    "react-burger-menu": "^2.5.4",
     "react-google-maps": "^9.4.5",
     "react-image-gallery": "^0.8.12",
     "react-player": "^1.6.4",

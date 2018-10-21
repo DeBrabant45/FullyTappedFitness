@@ -3,9 +3,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 
-
 const ReviewsInfo = () => {
   return (
+    <div style={{marginTop: "1.45rem"}}>
     <Carousel>
         <div>
             <img src={require("../../../images/Sample10.jpg")} />
@@ -31,6 +31,7 @@ const ReviewsInfo = () => {
             <h6 className="legend">Rose Martin</h6>
         </div>
     </Carousel>
+    </div>
   );
   }
 

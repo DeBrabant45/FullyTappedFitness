@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import "./Maps.css";
  
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const MapsIcon = ({ icon }) => <img src={icon}/>;
  
 class Maps extends Component {
   static defaultProps = {
@@ -21,10 +22,10 @@ class Maps extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <AnyReactComponent
+          <MapsIcon
             lat={42.678}
             lng={-83.3648277}
-            text={'Kreyser Avrora'}
+            icon={require('../../images/GMButton.svg')}
           />
         </GoogleMapReact>
       </div>

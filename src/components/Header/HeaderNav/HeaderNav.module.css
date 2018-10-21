@@ -26,7 +26,7 @@
             border-right: none;
         }
 
-    .navpage ul > li:nth-child(2) > a {
+    .navpage ul > li:nth-child(1) > a {
         border-radius: 5px 0 0 5px;
     }
 
@@ -55,13 +55,13 @@
     height: 50px;
 }
 
-.mobile-nav, .closebtn a {
+.mobilenav, .closebtn a {
     display: none;
 }
 
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
 
-    .closebtn, .mobile-nav {
+    .closebtn, .mobilenav {
         display: block;
     }
 

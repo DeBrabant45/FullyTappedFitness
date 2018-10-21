@@ -1,0 +1,63 @@
+.mobilenav li {
+    display: none;
+}
+
+@media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+    .mobilenav {
+        font-size: 30px;
+        cursor: pointer;
+        color: #ffffff;
+        position: fixed;
+        text-align: left;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .bmburgerbutton {
+        display: auto;
+    }
+
+    .navpage {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111111fc;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+        .navpage ul {
+            padding: 5px;
+        }
+
+        .navpage li {
+            display: block;
+        }
+
+        .navpage a {
+            padding: 8px 8px 8px 32px;
+            background-color: #4a4a4a;
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+
+            .navpage a:hover {
+                color: #f1f1f1;
+            }
+
+        .navpage .closebtn {
+            position: relative;
+            top: 0;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+    
+}

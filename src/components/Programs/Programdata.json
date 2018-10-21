@@ -1,6 +1,6 @@
 [   
     {
-        "image":"image01",
+        "image":"",
         "name": "Performance"
 
     },
@@ -13,3 +13,6 @@
         "name": "Boot Camp"
     }
 ]
+
+/*{ data.map(program =>  
+    <Programs key={program.name} image={program.image} name={program.name} /> )} */

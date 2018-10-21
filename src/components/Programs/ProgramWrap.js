@@ -1,8 +1,11 @@
 import React from "react";
 import Container from "../Container/Container.js";
 import Programs from "./ProgramInfo/Programs.js";
-import data from "./Programdata.json";
 import styles from "../Programs/ProgramWrap.module.css";
+import performance from "../../images/Performance.svg";
+import personaltraining from "../../images/PersonalTraining.svg";
+import bootcamp from "../../images/BootCamp.svg";
+
 
 const ProgramWrap = () => {
     return(
@@ -17,8 +20,9 @@ const ProgramWrap = () => {
                      community
                 </p>
             </div>
-            { data.map(program =>  
-                <Programs key={program.name} image={program.image} name={program.name} /> )}
+            <Programs images={performance} name={"Performance"}/>
+            <Programs images={personaltraining} name={"Personal Training"}/>
+            <Programs images={bootcamp} name={"Boot Camp"}/>
         </Container>
         </div>
     );

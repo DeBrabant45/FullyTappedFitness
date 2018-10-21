@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "./HeaderInfo.module.css";
+import MobileNav from "../HeaderNav/MobileNav.js";
 
 const gymHours = () => {
     let hours;
@@ -18,20 +19,18 @@ const gymHours = () => {
     return today + ' ' + hours;
 };
 
-const openNav = () => {
-    //document.getElementById(navside).style.width = "250px";
-    //document.getElementById(navdisplay).style.display = "block";
-  }
 
 const HeaderInfo = (props) => {
     return (
         <div className={styles.headerinfo}>
-            <div>
-                {gymHours()}
+        <MobileNav />
+            <div className={styles.mobilehide}>
+                <div>
+                    {gymHours()}
+                </div>
+                <br />
+                <div>(248) 383-8117</div>
             </div>
-            <br />
-            <div>(248) 383-8117</div>
-            <div className={styles.mobilenav} onClick={openNav}>&#9776;</div>
         </div>
     );
 }
