@@ -1,0 +1,39 @@
+.maincontainer {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(http://ironfit.ancorathemes.com/wp-content/uploads/2015/12/bg1.jpg);
+    /*background: url(../images/Sample12.jpg);*/
+    /*background-position: center center;*/
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+
+
+.content {
+    max-width: 100%;
+}
+
+ 
+.classinfo {
+    text-align: left;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.maincontentinfo h1 {
+    font-size: 70px;
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+
+    .container {
+        padding: 0px;
+    }
+
+}
