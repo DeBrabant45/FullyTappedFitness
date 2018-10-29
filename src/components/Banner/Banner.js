@@ -9,6 +9,9 @@ function changeBackground() {
     const isWellnesspage = location.pathname === withPrefix("/wellness/");
     const isSchedulepage = location.pathname === withPrefix("/schedule/");
     const isAboutpage = location.pathname === withPrefix("/about/");
+    const isBootcamppage = location.pathname === withPrefix("/bootcamp/");
+    const isPerformacepage = location.pathname === withPrefix("/performance/");
+    const isPersonalpage = location.pathname === withPrefix("/personaltraining/");
     let divStyle;
     switch (true) {
         case isHomepage:
@@ -34,6 +37,21 @@ function changeBackground() {
         case isAboutpage:
             return divStyle = {
                 backgroundColor: 'purple'
+            }
+            break;
+        case isBootcamppage:
+            return divStyle = {
+                backgroundColor: 'teal'
+            }
+            break;
+        case isPerformacepage:
+            return divStyle = {
+                backgroundColor: 'brown'
+            }
+            break;
+        case isPersonalpage:
+            return divStyle = {
+                backgroundColor: 'red'
             }
             break;
     } 

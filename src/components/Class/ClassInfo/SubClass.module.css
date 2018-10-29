@@ -1,0 +1,60 @@
+.main-container {
+    background-image: url(http://ironfit.ancorathemes.com/wp-content/uploads/2015/12/bg1.jpg);
+}
+
+.classcontain {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.classinfo {
+    text-align: left;
+    max-width: 700px;
+    margin-right: 20px;
+}
+    .classinfo img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+.innerimgright img {
+    max-width: 300px;
+    float: right;
+    margin: 0px 0 20px 20px; 
+}
+.innerimgleft img {
+    max-width: 300px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+
+    .main-content-info h1 {
+        margin: auto;
+    }
+
+    .container {
+        padding: 0px;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+
+    .classcontain {
+        display: block;
+    }
+
+    .classinfo {
+        margin: 0px;
+    }
+
+
+    .innerimgright img, .innerimgleft img {
+        float: none;
+        margin: 0px;
+    }
+}

@@ -8,6 +8,9 @@ function firstText() {
     const isWellnesspage = location.pathname === withPrefix("/wellness/");
     const isSchedulepage = location.pathname === withPrefix("/schedule/");
     const isAboutpage = location.pathname === withPrefix("/about/");
+    const isBootcamppage = location.pathname === withPrefix("/bootcamp/");
+    const isPerformacepage = location.pathname === withPrefix("/performance/");
+    const isPersonalpage = location.pathname === withPrefix("/personaltraining/");
     let first;
     switch (true) {
         case isHomepage:
@@ -25,6 +28,15 @@ function firstText() {
         case isAboutpage:
             return first = 'TAKE A LOOK AT WHAT WERE'
             break;
+        case isBootcamppage:
+            return first = 'WE OFFER'
+            break;
+        case isPerformacepage:
+            return first = 'WE OFFER'
+            break;
+        case isPersonalpage:
+            return first = 'WE OFFER'
+            break;
     } 
 }
 
@@ -34,6 +46,9 @@ function secondText() {
     const isWellnesspage = location.pathname === withPrefix("/wellness/");
     const isSchedulepage = location.pathname === withPrefix("/schedule/");
     const isAboutpage = location.pathname === withPrefix("/about/");
+    const isBootcamppage = location.pathname === withPrefix("/bootcamp/");
+    const isPerformacepage = location.pathname === withPrefix("/performance/");
+    const isPersonalpage = location.pathname === withPrefix("/personaltraining/");
     let second;
     switch (true) {
         case isHomepage:
@@ -51,6 +66,15 @@ function secondText() {
         case isAboutpage:
             return second = 'ABOUT'
             break;
+        case isBootcamppage:
+            return second = 'THE BEST'
+            break;
+        case isPerformacepage:
+            return second = 'THE BEST'
+            break;
+        case isPersonalpage:
+            return second = 'THE BEST'
+            break;
     } 
 }
 
@@ -60,6 +84,9 @@ function thirdText() {
     const isWellnesspage = location.pathname === withPrefix("/wellness/");
     const isSchedulepage = location.pathname === withPrefix("/schedule/");
     const isAboutpage = location.pathname === withPrefix("/about/");
+    const isBootcamppage = location.pathname === withPrefix("/bootcamp/");
+    const isPerformacepage = location.pathname === withPrefix("/performance/");
+    const isPersonalpage = location.pathname === withPrefix("/personaltraining/");
     let third;
     switch (true) {
         case isHomepage:
@@ -76,6 +103,15 @@ function thirdText() {
             break;
         case isAboutpage:
             return third = 'Tour our Gym today'
+            break;
+        case isBootcamppage:
+            return third = 'Bootcamp around'
+            break;
+        case isPerformacepage:
+            return third = 'Tour our Gym today'
+            break;
+        case isPersonalpage:
+            return third = 'Bootcamp around'
             break;
     } 
 }

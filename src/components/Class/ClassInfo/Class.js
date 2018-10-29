@@ -11,7 +11,7 @@ const Class = (props) => {
                 <div className={styles.classtext}>
                     <h2>{props.name}</h2>
                     <p>{props.info}</p>
-                    <Button>GET DETAILS</Button>
+                    <Button to="/bootcamp/">GET DETAILS</Button>
                 </div>
             </div>
         </div>
