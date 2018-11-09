@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../Container/Container.js";
 import Coaches from "./CoachInfo/Coaches.js";
-import list from "./Coachdata.json";
+import data from "./Coachdata.js";
 import styles from "./CoachWrap.module.css";
 
 
@@ -12,7 +12,7 @@ const CoachWrap = () => {
             <h2>OUR COACHES</h2>
             <h1>Best Proffessionals</h1>
             <div className={styles.coachservices}>
-                { list.map(coach =>  
+                { data.map(coach =>  
                 <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}/> )}
             </div>
         </Container>

@@ -22,7 +22,7 @@
         text-align: center;
         border-right: 1px solid #000000;
     }
-        .navpage li:first-child, li:last-child {
+         li:last-child {
             border-right: none;
         }
 
@@ -55,59 +55,14 @@
     height: 50px;
 }
 
-.mobilenav, .closebtn a {
-    display: none;
-}
 
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
-
-    .closebtn, .mobilenav {
-        display: block;
-    }
-
+    
     .navpage {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111111fc;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
+        display: none;
     }
 
-        .navpage ul {
-            padding: 5px;
-        }
-
-        .navpage li {
-            display: block;
-        }
-
-        .navpage a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #ffffff;
-            display: block;
-            transition: 0.3s;
-            border-radius: 5px;
-        }
-
-            .navpage a:hover {
-                color: #f1f1f1;
-            }
-
-        .navpage .closebtn {
-            position: relative;
-            top: 0;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        .nav-logo img {
+        .navlogo img {
             max-width: 120px;
         }
 

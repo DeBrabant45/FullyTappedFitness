@@ -6,7 +6,7 @@ import styles from "./HeaderNav.module.css";
 const HeaderNav = () => {
     return (
       <nav>
-        <div id={styles.navside} className={styles.navpage} >
+        <div className={styles.navpage} >
           <ul id={styles.navdisplay}>
               <ListLink to="/">Home</ListLink>
               <ListLink to="/classes/">Classes</ListLink>
