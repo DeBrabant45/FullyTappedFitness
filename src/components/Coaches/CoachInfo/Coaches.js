@@ -13,9 +13,9 @@ const Coaches = (props) => {
                 <img src={props.img}/>
             </div>
             <div className={styles.textcontain}>
-                <h3>{props.name}</h3>
+                <Button to="/about/">{props.name}</Button>
                 <p>{props.level}</p>
-                <Button to="/about/">MORE DETAILS</Button>
+                <p>{props.bio}</p>
                 <div className={styles.coachsm}>
                     <Facebook to={props.fblink}/>
                     <Instagram to={props.iglink}/>

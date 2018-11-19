@@ -1,23 +1,21 @@
 import React from "react";
 import Container from "../Container/Container.js";
-import Coaches from "./CoachInfo/Coaches.js";
-import data from "./Coachdata.js";
 import styles from "./CoachWrap.module.css";
 
 
-const CoachWrap = () => {
+const CoachWrap = (props) => {
     return (
         <div className={styles.containercolor}>
         <Container>
-            <h2>OUR COACHES</h2>
-            <h1>Best Proffessionals</h1>
+            <h2>{props.title1}</h2>
+            <h1>{props.title2}</h1>
             <div className={styles.coachservices}>
-                { data.map(coach =>  
-                <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}/> )}
+                {props.children}
             </div>
         </Container>
         </div>
     );
 }
+
 
 export default CoachWrap;

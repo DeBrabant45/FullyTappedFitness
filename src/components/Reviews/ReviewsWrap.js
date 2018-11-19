@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../Container/Container.js";
-import ReviewsInfo from "./ReviewsInfo/ReviewsInfo.js";
+import ReviewsInfo from "./ReviewsInfo.js";
 
 
 const ReviewsWrap = () => {
