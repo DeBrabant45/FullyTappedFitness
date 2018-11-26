@@ -19,7 +19,7 @@ const ProgramWrap = () => {
                 </p>
             </div>
             { data.map(program =>  
-                <Programs key={program.name} images={program.image} name={program.name} /> )}
+                <Programs key={program.name} images={program.image} name={program.name} to={program.to} /> )}
         </Container>
         </div>
     );

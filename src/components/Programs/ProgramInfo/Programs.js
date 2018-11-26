@@ -8,7 +8,7 @@ const Programs = (props) => {
             <div className={styles.small}>
                 <img src={props.images}/>
                 <h3>{props.name}</h3>
-                <Button to="/classes/">DETAILS</Button>
+                <Button to={props.to}>DETAILS</Button>
             </div>
         </div>
     );

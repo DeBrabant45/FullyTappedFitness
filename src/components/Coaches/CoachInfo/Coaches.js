@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../../Button/Button.js";
 import Facebook from "../../SocialMedia/SMButtons/FBButton.js";
 import Instagram from "../../SocialMedia/SMButtons/IGButton.js";
 import Twitter from "../../SocialMedia/SMButtons/TWButton.js";
@@ -13,9 +12,10 @@ const Coaches = (props) => {
                 <img src={props.img}/>
             </div>
             <div className={styles.textcontain}>
-                <Button to="/about/">{props.name}</Button>
+                <h3>{props.name}</h3>
                 <p>{props.level}</p>
                 <p>{props.bio}</p>
+                {props.children}
                 <div className={styles.coachsm}>
                     <Facebook to={props.fblink}/>
                     <Instagram to={props.iglink}/>

@@ -5,16 +5,19 @@ import bootcamp from "../../images/BootCamp.svg";
 const programs = [   
     {
         image: performance,
-        name: "Performance"
+        name: "Performance",
+        to: "/performance/"
 
     },
     {
         image: personaltraining,
-        name: "Personal Training"
+        name: "Personal Training",
+        to: "/personaltraining/"
     },
     {
         image: bootcamp,
-        name: "Boot Camp"
+        name: "Boot Camp",
+        to: "/bootcamp/"
     }
 ]
 

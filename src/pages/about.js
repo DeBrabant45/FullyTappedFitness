@@ -4,6 +4,8 @@ import Video from "../components/Video/Video.js";
 import CoachWrap from "../components/Coaches/CoachWrap.js";
 import Coaches from "../components/Coaches/CoachInfo/Coaches.js";
 import data from "../components/Coaches/Coachdata.js";
+import Tour from "../components/SlideShow/Tour.js";
+
 
 export default () => (
   <div>
@@ -13,5 +15,6 @@ export default () => (
       { data.map(coach =>
         <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} bio={coach.bio} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}/> )}
     </CoachWrap>
+    <Tour />
   </div>
 );

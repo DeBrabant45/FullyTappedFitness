@@ -5,9 +5,10 @@ import Video from "../components/Video/Video.js";
 import CoachWrap from "../components/Coaches/CoachWrap.js";
 import Coaches from "../components/Coaches/CoachInfo/Coaches.js";
 import data from "../components/Coaches/Coachdata.js";
-import ReviewsWrap from "../components/Reviews/ReviewsWrap.js";
+import Reviews from "../components/SlideShow/Reviews.js";
 import Maps from "../components/Maps/Maps.js";
 import Banner from "../components/Banner/Banner.js";
+import Button from "../components/Button/Button.js";
 
 
 export default () => (
@@ -18,9 +19,11 @@ export default () => (
     <Video url={require("../video/FTF_commercial.mp4")} />
     <CoachWrap title1="OUR COACHES" title2="Are the Best Proffessionals around">
       { data.map(coach =>
-        <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}/> )}
+        <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}>
+          <Button to="/about/">GET DETAILS</Button>
+        </Coaches> )}
     </CoachWrap>
-    <ReviewsWrap />
+    <Reviews />
     <Maps />
   </div>
 );
