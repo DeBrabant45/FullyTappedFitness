@@ -1,7 +1,7 @@
 import React from "react";
 import Awards from "./FooterAwards/Awards.js";
 import Banner from "./FooterBanner/Banner.js";
-import styles from "./footer.module.css";
+import styles from "./Footer.module.css";
 
 
 class Footer extends React.Component {
