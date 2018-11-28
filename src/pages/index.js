@@ -16,7 +16,7 @@ export default () => (
     <Banner bgimg={{ backgroundColor: 'blue' }} first="DISCOVER" second="LIMITLESS" third="You dont have to be great to start"/>
     <Headline head="We are the #1 Performance Gym" detail1="No matter where you’re at in your fitness journey " detail2="we are here help you take it to the next level"/>
     <ProgramWrap />
-    <Video url={require("../video/FTF_commercial.mp4")} />
+    <Video />
     <CoachWrap title1="OUR COACHES" title2="Are the Best Proffessionals around">
       { data.map(coach =>
         <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}>
