@@ -12,7 +12,7 @@ const Reviews = () => {
                 <h2>TESTIMONIALS</h2>
                 <h1 >What our Members are Saying</h1>
             </div>
-            <div style={{ maxWidth: "750px", display: "inline-block" }}>
+            <div className="slidesize">
                 <Carousel>
                     <div>
                         <img src={require("../../images/Sample10.jpg")} />

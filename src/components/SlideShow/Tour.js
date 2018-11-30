@@ -12,7 +12,7 @@ const Tour = () => {
                 <h2>WE PROVIDE STATE-OF-THE-ART EQUIPMENT</h2>
                 <h1>TOUR THE FACILITY</h1>
             </div>
-            <div style={{ maxWidth: "750px", display: "inline-block" }}>
+            <div className="slidesize">>
                 <Carousel>
                     <div>
                         <img src={require("../../images/Sample15.jpg")}/>
