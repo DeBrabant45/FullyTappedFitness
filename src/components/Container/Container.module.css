@@ -37,6 +37,10 @@
 
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) { 
 
+    .container {
+        padding: 12px;
+    }
+
     .contentinfo {
         padding: 0px !important;
     }

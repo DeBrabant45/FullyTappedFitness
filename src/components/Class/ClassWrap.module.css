@@ -45,5 +45,6 @@
 
     .class, .classflip {
         display: block;
+        margin-top: 15px
     }
 }
