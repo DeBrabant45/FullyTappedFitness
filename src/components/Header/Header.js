@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import HeaderNav from "./HeaderNav/HeaderNav.js";
 import HeaderSocial from "./HeaderSocial/HeaderSocial.js";
 import HeaderInfo from "./HeaderInfo/HeaderInfo.js";

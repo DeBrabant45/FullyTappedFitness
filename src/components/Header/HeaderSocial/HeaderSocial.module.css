@@ -2,9 +2,19 @@
     margin: auto;
 }
 
+.contactus{
+    text-align: right;
+}
+    .contactus span{
+        color: #ff6a00;
+    }
+
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
     .info {
         margin: 0;
-        font-size: 10px;
+    }
+
+    .contactus {
+        visibility: hidden;
     }
 }

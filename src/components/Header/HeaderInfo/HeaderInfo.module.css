@@ -1,6 +1,10 @@
 .headerinfo {
     margin: auto;
 }
+    .headerinfo span {
+        color: #ff6a00;
+    }
+
 
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
     .headerinfo {

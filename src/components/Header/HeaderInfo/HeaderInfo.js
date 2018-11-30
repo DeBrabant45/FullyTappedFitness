@@ -2,34 +2,15 @@ import React, { Component } from "react";
 import styles from "./HeaderInfo.module.css";
 import MobileNav from "../HeaderNav/MobileNav.js";
 
-const gymHours = () => {
-    let hours;
-    let date = new Date();
-    let weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    let today = weekday[date.getDay()];
-    if (today === 'Friday') {
-        hours = '5:15AM - 7:30PM';
-    }
-    else if (today === 'Saturday') {
-        hours = '9:00AM - 11:00AM';
-    }
-    else {
-        hours = '5:15AM - 8:30PM';
-    }
-    return today + ' ' + hours;
-};
 
-
-const HeaderInfo = (props) => {
+const HeaderInfo = () => {
     return (
         <div className={styles.headerinfo}>
         <MobileNav />
             <div className={styles.mobilehide}>
-                <div>
-                    {gymHours()}
-                </div>
-                <br />
-                <div>(248) 383-8117</div>
+              <h4><span>Mon-Thu:</span> 5:15am-8:30pm</h4>
+              <h4><span>Fri:</span> 5:15am-7:30pm</h4>
+              <h4><span>Sat:</span> 9:00am-11:00am</h4>
             </div>
         </div>
     );

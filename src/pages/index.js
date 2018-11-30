@@ -17,7 +17,7 @@ export default () => (
     <Headline head="We are the #1 Performance Gym" detail1="No matter where you’re at in your fitness journey " detail2="we are here help you take it to the next level"/>
     <ProgramWrap />
     <Video />
-    <CoachWrap title1="OUR COACHES" title2="Are the Best Proffessionals around">
+    <CoachWrap title1="OUR COACHES" title2="Are the Best Professionals around">
       { data.map(coach =>
         <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}>
           <Button to="/about/">GET DETAILS</Button>

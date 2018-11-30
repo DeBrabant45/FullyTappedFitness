@@ -37,3 +37,12 @@
     .coachlink a {
         color: #ff6a00; 
     }
+
+    @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+
+        .medium {
+            overflow: visible;
+            margin: auto;
+            margin-top: 10px;
+        }
+    }

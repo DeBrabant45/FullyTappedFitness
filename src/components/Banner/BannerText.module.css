@@ -16,15 +16,15 @@
   }
 
 .beforeH:first-of-type {     
-    animation: slideinR 10s;
+    animation: slideinR 3s;
 }  
 
 .head:first-of-type {
-    animation: showup 10s;
+    animation: showup 3s;
 }
 
 .afterH:last-of-type  {
-    animation: slideinL 10s;
+    animation: slideinL 3s;
 }
 
 @keyframes showup {
