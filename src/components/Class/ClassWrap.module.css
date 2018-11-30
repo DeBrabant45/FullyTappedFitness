@@ -41,10 +41,26 @@
     background-color: rgba(0, 0, 0, .30);
 }
 
+.classinfo {
+    text-align: left;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.classinfoflip {
+    text-align: right;
+    max-width: 450px;
+    padding: 20px;
+}
+
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
 
     .class, .classflip {
         display: block;
         margin-top: 15px
+    }
+
+    .classinfoflip {
+        text-align: left;
     }
 }

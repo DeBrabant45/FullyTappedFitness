@@ -7,7 +7,7 @@ const Class = (props) => {
     return (
         <div className={props.classcontain}>
             <div className={props.classstyle} />
-            <div className={styles.classinfo}>
+            <div className={props.classinfo}>
                 <div className={styles.classtext}>
                     <h2>{props.name}</h2>
                     <p>{props.info}</p>
