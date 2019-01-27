@@ -9,7 +9,7 @@ import Reviews from "../components/SlideShow/Reviews.js";
 import Maps from "../components/Maps/Maps.js";
 import Banner from "../components/Banner/Banner.js";
 import Button from "../components/Button/Button.js";
-import img from "../images/indexban.jpg";
+import img from "../images/indexban.JPG";
 
 
 export default () => (
