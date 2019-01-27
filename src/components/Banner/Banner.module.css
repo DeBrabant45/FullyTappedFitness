@@ -1,7 +1,7 @@
 .bannercontainer {
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-    /*background: url(../images/Sample12.jpg);*/
+    background-position: center;
     background-size: cover;
     width: 100%;
     min-height: 450px;

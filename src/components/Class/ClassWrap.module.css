@@ -1,5 +1,6 @@
 .preformimg {
-    background-image: url(https://static.wixstatic.com/media/eed6b4_1e0c2d8242d9410a912e320871361c6d~mv2_d_4160_3120_s_4_2.jpg/v1/fill/w_1306,h_1006,al_c,q_85,usm_0.66_1.00_0.01/eed6b4_1e0c2d8242d9410a912e320871361c6d~mv2_d_4160_3120_s_4_2.webp);
+    background-image: url('../../images/pref.png');
+    background-position: center;
     height: 450px;
     width: 100%;
     min-width: 250px;
@@ -9,6 +10,7 @@
 
 .bootimg {
     background-image: url(https://static.wixstatic.com/media/eed6b4_a1f12fddf8b34164b8117d97fb8e0d3d~mv2_d_4160_3120_s_4_2.jpg/v1/fill/w_1306,h_880,al_c,q_85,usm_0.66_1.00_0.01/eed6b4_a1f12fddf8b34164b8117d97fb8e0d3d~mv2_d_4160_3120_s_4_2.webp);
+    background-position: center;
     height: 450px;
     width: 100%;
     min-width: 250px;
@@ -18,6 +20,7 @@
 
 .personalimg {
     background-image: url(https://static.wixstatic.com/media/eed6b4_bb356a1a319e4c02bf607f69205a9b17~mv2_d_3789_2672_s_4_2.jpg/v1/fill/w_1306,h_898,al_c,q_85,usm_0.66_1.00_0.01/eed6b4_bb356a1a319e4c02bf607f69205a9b17~mv2_d_3789_2672_s_4_2.webp);
+    background-position: center;
     height: 450px;
     width: 100%;
     min-width: 250px;

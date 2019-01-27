@@ -1,12 +1,14 @@
 .bannertext h1 {
     font-size: 100px;
     margin: 0px;
+    color: #ff6a00;
 }
 
 .beforeH, .afterH {
-    font-size: 25px;
-    color: #d3d3d3;
+    font-size: 40px;
+    color: #ffffff;
     margin: 0px;
+    font-variant: small-caps;
 }
 
 .bannertext {
@@ -50,6 +52,6 @@
 
 @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
     .beforeH,.afterH {
-        font-size: 16px;
+        font-size: 24px;
     }
 }

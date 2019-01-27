@@ -6,7 +6,7 @@ const Banner = (props) => {
     return(
         <div className={styles.footbanner}>
             <div className={styles.footlogo}>
-                <img src={require('../../../images/oldLogo.png')} />
+                <img src={require('../../../images/logo.png')} />
             </div>
              <p>
                 The biggest advantage to doing <span className={styles.colorchange}>Performance</span> is being able to be a part of a thriving

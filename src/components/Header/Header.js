@@ -14,7 +14,7 @@ export default class Header extends React.Component {
                     <HeaderInfo />
                     <div className={styles.navlogo}>
                         <NavLink to="/">
-                            <img src={require('../../images/oldLogo.png')}/>
+                            <img src={require('../../images/logo.png')}/>
                         </NavLink>
                     </div>
                     <HeaderSocial />
