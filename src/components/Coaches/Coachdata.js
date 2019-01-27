@@ -31,7 +31,7 @@ const coaches = [   {
     },
     {
         image: Rachel,
-        name: "Rachel",
+        name: "Rachel Thatcher",
         level: "Crossfit Level 2",
         bio: "Rachael is a passionate competitor and a  Level 2 Crossfit Trainer, with 7 years experience coaching Crossfit. She has completed at a world level in the sport of Strongwoman since 2014, finishing 4th in 2015 at the World Amateur Strongwoman Championships and gained her Pro Card in 2017 at the World Championships. Rachael's love for strength and fitness reaches into many other sports; Weightlifting, Swimming, Athletics and Baseball. She has a keen eye for detail and a fantastic knowledge for functional movement.Rachael is an animal lover and has a hilarious sense of humour",
         facebook: "https://www.facebook.com/rachael.mackenzie1",
