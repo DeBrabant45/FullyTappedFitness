@@ -1,6 +1,6 @@
-import Rb from "../../images/rb.png"
-import Roman from "../../images/roman.png"
-import Rachel from "../../images/rachel.png"
+import Rb from "../../images/rb.jpg"
+import Roman from "../../images/roman.jpg"
+import Rachel from "../../images/rachel.jpg"
 
 const coaches = [   {
         image: Rb,

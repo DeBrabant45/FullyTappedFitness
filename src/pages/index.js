@@ -9,13 +9,13 @@ import Reviews from "../components/SlideShow/Reviews.js";
 import Maps from "../components/Maps/Maps.js";
 import Banner from "../components/Banner/Banner.js";
 import Button from "../components/Button/Button.js";
-import img from "../images/indexban.png";
+import img from "../images/indexban.jpg";
 
 
 export default () => (
   <div>
     <Banner bgimg={{ backgroundImage: `linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(${img})` }} first="GYMS USE MACHINES" second="WE BUILD" third="Them"/>
-    <Headline head="Voted #1 fitness facility in Oakland county years in a row" detail1="No matter where you’re at in your fitness journey " detail2="we are here help you take it to the next level"/>
+    <Headline head="Voted #1 fitness facility in Oakland county three years in a row" detail1="No matter where you’re at in your fitness journey " detail2="we are here help you take it to the next level"/>
     <ProgramWrap />
     <Video />
     <CoachWrap title1="OUR COACHES" title2="Are the Best Professionals around">

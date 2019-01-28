@@ -1,7 +1,7 @@
 import React from "react";
 import ClassWrap from "../components/Class/ClassWrap.js";
 import Banner from "../components/Banner/Banner.js";
-import img from "../images/programs.png";
+import img from "../images/programs.jpg";
 
 export default () => (
   <div>
