@@ -8,7 +8,7 @@ const Banner = (props) => {
             <div className={styles.footlogo}>
                 <img src={require('../../../images/logo.png')} />
             </div>
-             <p>
+             <p className={styles.footertext}>
                 The biggest advantage to doing <span className={styles.colorchange}>Performance</span> is being able to be a part of a thriving
                 community of like-minded people, all of whom are there to support you in your fitness goals.
             </p>

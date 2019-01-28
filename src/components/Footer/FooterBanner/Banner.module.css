@@ -10,3 +10,10 @@
 .fsocialmedia {
     margin: 20px;
 }
+
+@media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) {
+
+    .fsocialmedia {
+        display: none;
+    }
+}
