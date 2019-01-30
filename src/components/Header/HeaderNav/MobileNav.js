@@ -10,7 +10,7 @@ var isMenuOpen = function(state) {
   
  const MobileNav = () => {
     return (
-            <Menu className="bm-burger-button" className={styles.mobilenav} className={styles.navpage} onStateChange={ isMenuOpen } isOpen={ false }>
+            <Menu onStateChange={ isMenuOpen } isOpen={ false }>
               <ListLink to="/">Home</ListLink>
               <ListLink to="/classes/">Classes</ListLink>
               <ListLink to="/wellness/">Wellness</ListLink>
