@@ -7,12 +7,10 @@
     min-height: 450px;
     opacity: 1;
     visibility: inherit;
-    z-index: 20;
 }
 
 .bannercontent {
     margin: 0 auto;
-    z-index: 1;
     max-width: 75%;
     padding: 20px;
     text-align: center;
