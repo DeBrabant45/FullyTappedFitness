@@ -37,7 +37,8 @@
     
   .bm-menu-wrap {
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    position: fixed !important;
+    transform: translate3d(0,0,0);
   }
    
   /* General sidebar styles */
