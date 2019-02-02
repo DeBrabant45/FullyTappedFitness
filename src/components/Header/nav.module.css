@@ -1,0 +1,30 @@
+.HamburgerButton {
+    cursor: pointer;
+    font-size: 80px;
+    margin: 0;
+    z-index: 90;
+    color:  #ff6a00;
+    margin:0;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -145px;
+    margin-right: 10px;
+}
+
+    @media (min-width: 500px) {
+        .HamburgerButton {
+            display: none;
+        }
+
+      } 
+
+.HamburgerClose {
+    cursor: pointer;
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+    margin: 18px;
+    color: white;
+    text-align: right;
+    display: inline-block;
+}

@@ -6,7 +6,7 @@ import GoogleMaps from "./SMButtons/GMButton.js";
 
 const SMList = (props) => {
     return (
-        <span>
+        <span className={props.media}>
             <Facebook to='https://www.facebook.com/FullyTappedFitness/'></Facebook>
             <Instagram to='https://www.instagram.com/fullytappedfitness/'></Instagram>
             <Twitter to='https://www.twitter.com/Unleashed_Fit'></Twitter>

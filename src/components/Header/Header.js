@@ -1,9 +1,9 @@
 import React from "react";
 import HeaderNav from "./HeaderNav/HeaderNav.js";
-import HeaderSocial from "./HeaderSocial/HeaderSocial.js";
-import HeaderInfo from "./HeaderInfo/HeaderInfo.js";
 import { NavLink } from 'react-router-dom'
 import styles from "./Header.module.css";
+import SMList from "../SocialMedia/SMList.js";
+import Nav from "./Nav.js"
 
 export default class Header extends React.Component {
     render() {
@@ -11,15 +11,27 @@ export default class Header extends React.Component {
           <header className={styles.headercontain}>
             <div className={styles.headercontent}>
                 <div className={styles.headerwrap}>
-                    <HeaderInfo />
+                    <div className={styles.headerinfo}>
+                        <div className={styles.mobilehide}>
+                            <h4><span>Mon-Thu:</span> 5:15am-8:30pm</h4>
+                            <h4><span>Fri:</span> 5:15am-7:30pm</h4>
+                            <h4><span>Sat:</span> 9:00am-11:00am</h4>
+                        </div>
+                    </div>
                     <div className={styles.navlogo}>
                         <NavLink to="/">
                             <img src={require('../../images/logo.png')}/>
                         </NavLink>
                     </div>
-                    <HeaderSocial />
+                    <div className={styles.info}>
+                        <SMList />
+                        <div className={styles.contactus}>
+                            <span>Contact Us: </span> 
+                            (248) 383-8117
+                        </div>
+                    </div>
                 </div>
-                <HeaderNav />
+                <Nav />
             </div>
           </header>
       );
