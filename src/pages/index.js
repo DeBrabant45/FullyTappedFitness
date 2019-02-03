@@ -10,11 +10,12 @@ import Maps from "../components/Maps/Maps.js";
 import Banner from "../components/Banner/Banner.js";
 import Button from "../components/Button/Button.js";
 import img from "../images/indexban.jpg";
+import Layout from "../components/layout.js";
 
 
 export default () => (
-  <div>
-    <Banner bgimg={{ backgroundImage: `linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(${img})` }} first="GYMS USE MACHINES" second="WE BUILD" third="Them"/>
+  <Layout>
+    <Banner bgimg={{ backgroundImage: `linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(${img})` }} first="GYMS USE" second="MACHINES" third=" we build them"/>
     <Headline head="Voted #1 fitness facility in Oakland county 3 years in a row" detail1="No matter where you’re at in your fitness journey " detail2="we are here help you take it to the next level"/>
     <ProgramWrap />
     <Video />
@@ -26,5 +27,5 @@ export default () => (
     </CoachWrap>
     <Reviews />
     <Maps />
-  </div>
+  </Layout>
 );

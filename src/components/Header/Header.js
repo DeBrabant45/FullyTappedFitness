@@ -1,9 +1,8 @@
 import React from "react";
-import HeaderNav from "./HeaderNav/HeaderNav.js";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import styles from "./Header.module.css";
 import SMList from "../SocialMedia/SMList.js";
-import Nav from "./Nav.js"
+import Nav from "./Nav.js";
 
 export default class Header extends React.Component {
     render() {

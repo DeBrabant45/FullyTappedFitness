@@ -22,7 +22,7 @@
             text-align: center;
             border-right: 1px solid #000000;
         }
-            li:last-child {
+            .contain ul > li:nth-child(5){
                 border-right: none;
             }
 
@@ -62,19 +62,19 @@
             position: fixed;
             height: 100%;
             width: 100%;
-            opacity: .95;
             flex-direction: column;
             justify-content: flex-start;
             left: 0;
             top: 0;
             bottom: 0;
             z-index: 100;
-            background: #404040;
+            background: rgba(64, 64, 64, 0.93);
+            overflow: scroll;
         }
 
             .contain ul {
                 list-style-type: none;
-                background: black;
+                background: rgba(0, 0, 0, 0.85);
                 margin: 20px;
                 border-radius: 5px;
                 height: 100%;
@@ -88,6 +88,10 @@
                 display: block;
                 text-align: center;
                 border: none;
+                
+            }
+            .contain ul > li:nth-child(6) > a {
+                border-radius: 5px;
             }
     
             .contain a {
@@ -98,16 +102,13 @@
                 padding: 0;
                 font-weight: 700;
                 letter-spacing: 1px;
+                background: none;
             }
 
-        
-        .UnorderedList {
-            list-style-type: none;
-            background: black;
-            margin: 20px;
-            border-radius: 5px;
-            height: 100%;
-        }
+            .contain > li > a {
+                opacity: 1;
+              }
+
 
             .UnorderedList a {
                 padding: 8px 8px 8px 8px;
@@ -121,7 +122,7 @@
                 max-width: 200px;
                 margin: auto;
                 text-align: center;
-                margin-bottom: 40px;
+                margin-bottom: 20px;
 
             }
     

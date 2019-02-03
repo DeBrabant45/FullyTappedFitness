@@ -15,7 +15,7 @@ const Headline = (props) => {
                 {props.detail2}
             </p>
             {props.children}
-            <Button to="/about/">GET DETAILS</Button>
+            <Button to="/schedule/">GET DETAILS</Button>
           </div>
         </Container>
     );

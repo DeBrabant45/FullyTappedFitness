@@ -23,7 +23,7 @@ const SubClass = (props) => {
                     </span>
                     <p>{props.text5}</p>
                     <p>{props.text6}</p>
-                    <Button to="/about/">SIGN UP</Button>
+                    <Button to="/schedule/">SIGN UP</Button>
                 </div>
             </div>
             <ClassNav />

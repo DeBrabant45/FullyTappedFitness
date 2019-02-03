@@ -5,10 +5,11 @@ import CoachWrap from "../components/Coaches/CoachWrap.js";
 import Coaches from "../components/Coaches/CoachInfo/Coaches.js";
 import data from "../components/Coaches/Coachdata.js";
 import Tour from "../components/SlideShow/Tour.js";
+import Layout from "../components/layout.js";
 
 
 export default () => (
-  <div>
+  <Layout>
     <Banner bgimg={{ backgroundColor: 'purple' }} first="TAKE A LOOK AT WHAT WERE" second="ABOUT" third="Tour our Gym today"/>
     <Video />
     <CoachWrap title1="MEET OUR" title2="COACHES">
@@ -16,5 +17,5 @@ export default () => (
         <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} bio={coach.bio} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}/> )}
     </CoachWrap>
     <Tour />
-  </div>
+  </Layout>
 );
