@@ -5,6 +5,8 @@ import CoachWrap from "../components/Coaches/CoachWrap.js";
 import Coaches from "../components/Coaches/CoachInfo/Coaches.js";
 import data from "../components/Coaches/Coachdata.js";
 import Tour from "../components/SlideShow/Tour.js";
+import Contact from "../components/ContactForm/Contact.js";
+import Color from "../components/Container/ColorContainer.js";
 import Layout from "../components/layout.js";
 
 
@@ -17,5 +19,8 @@ export default () => (
         <Coaches key={coach.name} img={coach.image} name={coach.name} level={coach.level} bio={coach.bio} fblink={coach.facebook} iglink={coach.instagram} twlink={coach.twitter}/> )}
     </CoachWrap>
     <Tour />
+    <Color>
+      <Contact />
+    </Color>
   </Layout>
 );

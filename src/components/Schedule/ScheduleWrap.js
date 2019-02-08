@@ -1,27 +1,12 @@
 import React from "react";
 import Container from "../Container/Container.js";
-import Color from "../Container/ColorContainer.js"; 
 
 const ScheduleWrap = (props) => {
     return(
         <div>
             <Container>
-                <iframe src="https://unleashedfitness.zenplanner.com/zenplanner/portal/calendar.cfm?type=Calendar&FRAME=true" id="idZenPlannerFrame">
-                    <noframes>
-                        <a href="https://unleashedfitness.zenplanner.com/zenplanner/portal/calendar.cfm">Online Calendar</a>
-                    </noframes>
-                </iframe>
+                <iframe src="https://app.wodify.com/AdminSchedule/Public_Class_Calendar.aspx?TenantKey=5mhd2OMdUy&Location_Id=7140&Program_Id=54450,54784,54785,54786,55123,55203" style={{ width: "1200px", height: "650px", maxWidth: "100%", maxHeight: "100%", border: "none" }}></iframe>
             </Container>
-            <Color>
-            <Container>
-                    <h1>Sign Up For A Free Class</h1>
-                    <iframe src="https://unleashedfitness.zenplanner.com/zenplanner/portal/freeTrial.cfm?type=FreeTrial&FRAME=true " id="idZenPlannerFrame">
-                        <noframes>
-                            <a href="https://unleashedfitness.zenplanner.com/zenplanner/portal/freeTrial.cfm">Free Class Registration</a>
-                        </noframes>
-                    </iframe>
-            </Container>
-            </Color>
         </div>
     );
 }

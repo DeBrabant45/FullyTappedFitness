@@ -1,0 +1,68 @@
+.contain {
+    background: #202122;
+    border-radius: 5px;
+}
+
+.info {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.header {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contactForm {
+    margin: auto;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: fit-content;
+    
+}
+    .contactForm h4 {
+        margin: 0;
+        padding: 0;
+        color:gray;
+        text-align: left;
+    }
+
+.contactInput {
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background: gray;
+    border: none;
+}
+
+.questionBox {
+    height: 120px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 5px;
+    background: gray;
+    border: none;
+    text-align: left;
+}
+
+.button {
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    background: #ff6a00;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+    .button img {
+        margin: 0px;
+    }
+
+
+    @media only screen and (max-width: 515px), (min-device-width: 320px) and (max-device-width: 425px) { 
+        .questionBox{
+            max-width: 300px;
+        }
+    }
