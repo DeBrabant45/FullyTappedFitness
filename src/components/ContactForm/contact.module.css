@@ -1,6 +1,9 @@
 .contain {
     background: #202122;
     border-radius: 5px;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .info {
@@ -10,7 +13,6 @@
 
 .header {
     text-align: center;
-    padding-top: 40px;
 }
 
 .contactForm {

@@ -16,4 +16,8 @@
     .fsocialmedia {
         display: none;
     }
+
+    .footertext{
+        font-size: 10px;
+    }
 }

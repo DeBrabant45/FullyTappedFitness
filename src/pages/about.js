@@ -7,6 +7,7 @@ import data from "../components/Coaches/Coachdata.js";
 import Tour from "../components/SlideShow/Tour.js";
 import Contact from "../components/ContactForm/Contact.js";
 import Color from "../components/Container/ColorContainer.js";
+import Container from "../components/Container/Container.js";
 import Layout from "../components/layout.js";
 
 
@@ -20,7 +21,9 @@ export default () => (
     </CoachWrap>
     <Tour />
     <Color>
-      <Contact />
+      <Container>
+        <Contact />
+      </Container>
     </Color>
   </Layout>
 );

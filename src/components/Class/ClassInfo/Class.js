@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../../Button/Button.js";
 import styles from "./Class.module.css";
 
 
@@ -11,7 +10,7 @@ const Class = (props) => {
                 <div className={styles.classtext}>
                     <h2>{props.name}</h2>
                     <p>{props.info}</p>
-                    <Button to={props.to}>GET DETAILS</Button>
+                    {props.children}
                 </div>
             </div>
         </div>

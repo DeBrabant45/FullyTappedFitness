@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../Button/Button.js";
+import Modal from "../../Modal/Modal.js";
 import ClassNav from "../ClassNav/ClassNav.js";
 import styles from "./SubClass.module.css";
 
@@ -23,7 +23,7 @@ const SubClass = (props) => {
                     </span>
                     <p>{props.text5}</p>
                     <p>{props.text6}</p>
-                    <Button to="/schedule/">SIGN UP</Button>
+                    <Modal />
                 </div>
             </div>
             <ClassNav />
