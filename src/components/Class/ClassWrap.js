@@ -21,7 +21,7 @@ const ClassWrap = () => {
                             rowing machines, bikes, and more.  These classes are challenging, but can include all kinds of modifications
                             to suit a range of difficulties, from beginner to advanced."
                     >
-                        <Button to="/performance/">DET DETAILS</Button>
+                        <Button to="/performance/">GET DETAILS</Button>
                     </Class>                          
                 </Container>
             </div>
@@ -34,7 +34,7 @@ const ClassWrap = () => {
                     info=" Boot Camp is a high energy class centered on interval training to burn fat, improve strength, and tone muscle.
                             These classes still work with a variety of equipment, but tend to be less technical and involve lighter weights than our Performance class."
                 >
-                    <Button to="/bootcamp/">DET DETAILS</Button>
+                    <Button to="/bootcamp/">GET DETAILS</Button>
                 </Class>
             </Container>
             <div className={styles.containercolor}>
@@ -48,7 +48,7 @@ const ClassWrap = () => {
                         info=" If you feel like you need a custom program or one to one training outside of our classes we offer personal training sessions.  
                             All of our coaches are certified personal trainers who are here to help you meet your fitness goals. Reach out today!"
                     >
-                        <Button to="/personaltraining/">DET DETAILS</Button>
+                        <Button to="/personaltraining/">GET DETAILS</Button>
                     </Class>  
                 </Container>
             </div>

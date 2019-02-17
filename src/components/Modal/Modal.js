@@ -28,7 +28,7 @@ class Modal extends React.Component {
         } 
       return (
         <div>
-          <div onClick={this.showModal} className={styles.ModalButton}>SIGN UP</div>
+          <div onClick={this.showModal} className={styles.ModalButton}>CONTACT NOW</div>
           {modal}
         </div>
       )
