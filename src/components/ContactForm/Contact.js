@@ -9,6 +9,7 @@ const Contact = (props) => {
             <h1 className={styles.header}>Get in Contact with us!</h1>
             <p className={styles.info}>Tell us your Fitness goals and we will help make them come true!</p>
             <form className={styles.contactForm} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <h4>Your Name:</h4>
                 <input className={styles.contactInput} name="fullname" placeholder="John Smith *" type="text" required/>
                 <h4>Leave us your number:</h4>
