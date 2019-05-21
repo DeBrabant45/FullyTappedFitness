@@ -10,7 +10,7 @@ const Contact = (props) => {
             <p className={styles.info}>Tell us your Fitness goals and we will help make them come true!</p>
             <form className={styles.contactForm} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                 <h4>Your Name:</h4>
-                <input className={styles.contactInput} name="name" placeholder="John Smith *" type="text" required/>
+                <input className={styles.contactInput} name="fullname" placeholder="John Smith *" type="text" required/>
                 <h4>Leave us your number:</h4>
                 <input className={styles.contactInput} name="number" placeholder="121-666-111 *" type="number" required/>
                 <h4>Leave your best eMail:</h4>
